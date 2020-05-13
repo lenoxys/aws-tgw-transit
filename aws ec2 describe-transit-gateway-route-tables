@@ -1,0 +1,32 @@
+{
+    "TransitGatewayRouteTables": [
+        {
+            "TransitGatewayRouteTableId": "tgw-rtb-062e21fb20fc25fed",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "State": "available",
+            "DefaultAssociationRouteTable": false,
+            "DefaultPropagationRouteTable": false,
+            "CreationTime": "2020-05-11T14:59:09.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Spokes"
+                }
+            ]
+        },
+        {
+            "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "State": "available",
+            "DefaultAssociationRouteTable": false,
+            "DefaultPropagationRouteTable": false,
+            "CreationTime": "2020-05-11T14:58:59.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security"
+                }
+            ]
+        }
+    ]
+}
