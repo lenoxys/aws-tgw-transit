@@ -1,0 +1,220 @@
+{
+    "TransitGatewayAttachments": [
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-028a5b577ffa5d4ba",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-09f1a5a91f1efb504",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T14:53:43.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-East-West"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-04ab6c32adcce1c2a",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-03d1e43c23c90128d",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T14:53:55.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-In"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-04fd66f6990907cb5",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-7d8dff14",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T16:58:44.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "bastion"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-07d81471624adb79b",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-0ebd65f458d43341c",
+            "State": "available",
+            "CreationTime": "2020-05-11T14:53:06.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Services"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-088d4d9aa9fe9ac06",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-0badcf5f3ae3ce52c",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T14:54:08.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-Out"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-0e76b185873757cbe",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-070e05b7b46225c44",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-062e21fb20fc25fed",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T14:52:33.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Spoke1"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-0eecb19b1d772e784",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-03d94ebc0553792f6",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-062e21fb20fc25fed",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-11T14:52:46.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Spoke2"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-006dd64c5e33f3587",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpn",
+            "ResourceId": "vpn-076aa13547213ba49",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-12T13:57:22.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-out-azb-1"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-031eac93e9c794825",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpn",
+            "ResourceId": "vpn-0f1e43088d80579fa",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-12T14:02:17.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-out-aza-1"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-07042cd9b2bf81743",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpn",
+            "ResourceId": "vpn-00bf630fb4c0bf21c",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-12T13:59:32.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-east-west-azb-1"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-07b9a437681e80f30",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayOwnerId": "240125095871",
+            "ResourceOwnerId": "240125095871",
+            "ResourceType": "vpn",
+            "ResourceId": "vpn-0ac10ac856c1c1e24",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-06c0885d3451390f3",
+                "State": "associated"
+            },
+            "CreationTime": "2020-05-12T13:59:07.000Z",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-east-west-aza-1"
+                }
+            ]
+        }
+    ]
+}
