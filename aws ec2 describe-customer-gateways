@@ -1,0 +1,56 @@
+{
+    "CustomerGateways": [
+        {
+            "BgpAsn": "65253",
+            "CustomerGatewayId": "cgw-0063be173a916fbce",
+            "IpAddress": "52.47.163.76",
+            "State": "available",
+            "Type": "ipsec.1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-east-west-aza-1"
+                }
+            ]
+        },
+        {
+            "BgpAsn": "65253",
+            "CustomerGatewayId": "cgw-0252f4b07efc2b72e",
+            "IpAddress": "15.236.99.66",
+            "State": "available",
+            "Type": "ipsec.1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-east-west-azb-1"
+                }
+            ]
+        },
+        {
+            "BgpAsn": "65254",
+            "CustomerGatewayId": "cgw-0ae237a68a1b2dcb4",
+            "IpAddress": "15.236.98.213",
+            "State": "available",
+            "Type": "ipsec.1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-out-azb-1"
+                }
+            ]
+        },
+        {
+            "BgpAsn": "65254",
+            "CustomerGatewayId": "cgw-0f318e98de9c0f4c2",
+            "IpAddress": "15.236.69.143",
+            "State": "available",
+            "Type": "ipsec.1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vmfw-sec-out-aza-1"
+                }
+            ]
+        }
+    ]
+}
