@@ -1,0 +1,26 @@
+{
+    "TransitGateways": [
+        {
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "TransitGatewayArn": "arn:aws:ec2:eu-west-3:240125095871:transit-gateway/tgw-0ecb0a97e9fd751c4",
+            "State": "available",
+            "OwnerId": "240125095871",
+            "Description": "Transit Gateway",
+            "CreationTime": "2020-05-11T14:51:25.000Z",
+            "Options": {
+                "AmazonSideAsn": 64512,
+                "AutoAcceptSharedAttachments": "disable",
+                "DefaultRouteTableAssociation": "disable",
+                "DefaultRouteTablePropagation": "disable",
+                "VpnEcmpSupport": "enable",
+                "DnsSupport": "enable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "TGW1"
+                }
+            ]
+        }
+    ]
+}
