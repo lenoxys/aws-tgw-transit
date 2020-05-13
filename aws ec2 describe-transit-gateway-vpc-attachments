@@ -1,0 +1,159 @@
+{
+    "TransitGatewayVpcAttachments": [
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-028a5b577ffa5d4ba",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-09f1a5a91f1efb504",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-02c1a3774271e8972",
+                "subnet-08c37477716170038"
+            ],
+            "CreationTime": "2020-05-11T14:53:43.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-East-West"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-04ab6c32adcce1c2a",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-03d1e43c23c90128d",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-04170b0ac2c932614",
+                "subnet-09f8a223c12f63f3b"
+            ],
+            "CreationTime": "2020-05-11T14:53:55.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-In"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-04fd66f6990907cb5",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-7d8dff14",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-01ea8c68",
+                "subnet-19e72954",
+                "subnet-4c09b037"
+            ],
+            "CreationTime": "2020-05-11T16:58:44.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "bastion"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-07d81471624adb79b",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-0ebd65f458d43341c",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-0808c305e87dcc1e4",
+                "subnet-0f0914b6c39313ea6"
+            ],
+            "CreationTime": "2020-05-11T14:53:06.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Services"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-088d4d9aa9fe9ac06",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-0badcf5f3ae3ce52c",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-0894bd47d05be3948",
+                "subnet-065a5fc8c545b66bd"
+            ],
+            "CreationTime": "2020-05-11T14:54:08.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Security-Out"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-0e76b185873757cbe",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-070e05b7b46225c44",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-05382af8c2625e9f8",
+                "subnet-0c1d1759caebb3f7d"
+            ],
+            "CreationTime": "2020-05-11T14:52:33.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Spoke1"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-0eecb19b1d772e784",
+            "TransitGatewayId": "tgw-0ecb0a97e9fd751c4",
+            "VpcId": "vpc-03d94ebc0553792f6",
+            "VpcOwnerId": "240125095871",
+            "State": "available",
+            "SubnetIds": [
+                "subnet-0c0e1584de9df97cc",
+                "subnet-0bfcc634422a043c4"
+            ],
+            "CreationTime": "2020-05-11T14:52:46.000Z",
+            "Options": {
+                "DnsSupport": "enable",
+                "Ipv6Support": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Spoke2"
+                }
+            ]
+        }
+    ]
+}
